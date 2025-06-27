@@ -1,0 +1,19 @@
+{
+  "name": "soblend-api",
+  "version": "1.0.0",
+  "description": "API de búsqueda Soblend para Vercel, usando SerpApi.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "keywords": ["api", "search", "vercel", "soblend", "serpapi"],
+  "author": "KaitoNeko",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^3.0.18",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.3.0"
+  }
+}
